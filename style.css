@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Rubik:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, hsl(185, 75%, 39%) 25%, hsl(185, 81%, 21%) 50%, hsl(185, 75%, 39%) 25%)
+}
+
+.Profile-card__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370px;
+    width: 100%;
+    background: #fff;
+    border-radius: 25px;
+    padding: 25px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.Profile-card__container::before{
+    content: '';
+    position: absolute;
+    height: 36%;
+    width: 100%;
+    background-color: hsl(185, 81%, 21%);
+    top:0;
+    left:0;
+    border-radius: 24px 24px 0 0;
+}
+
+.image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.image .victor{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.Profile-card__container .text-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.text-data .name{
+    font-size: 26px;
+    font-weight: 500;
+    margin-right: 10px;
+    border-right-width: 5px;
+    margin-top: 15px;
+}
+
+.text-data .loacation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+.followers-number{
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+}
+
+.likes-number{
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+}
+
+.photos-number{
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+}
+
+.followers-likes-photos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}

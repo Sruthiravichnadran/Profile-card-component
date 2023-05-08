@@ -11,21 +11,23 @@ The designs were created to the following widths:
 
 ### Primary
 
-Dark cyan: hsl(185, 75%, 39%)
-Very dark desaturated blue: hsl(229, 23%, 23%)
-Dark grayish blue: hsl(227, 10%, 46%)
+- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
 
 ### Neutral
 
-Dark gray: hsl(0, 0%, 59%)
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)
 
 ## Typography
 
 ### Body Copy
 
-- Font size (name and stats): 18px
+- Font size (paragraph): 18px
 
 ### Font
 
-- Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
-- Weights: 400, 700
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 300, 400, 600

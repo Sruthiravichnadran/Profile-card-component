@@ -5,11 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | NFT preview card component</title>
+
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -17,38 +16,43 @@
   </style>
 </head>
 <body>
+
+  <!-- Equilibrium #3429
+
+  Our Equilibrium collection promotes balance and calm.
+
+  0.041 ETH
+  3 days left
   
-  <div class="Profile-card__container">
-    <div class="image">
-      <img src="/images/image-victor.jpg" alt="victor-profile" class="victor">
+   Creation of Jules Wyvern -->
+<main>
+  <section class="card">
+    <div class="card-1">
+    <div class="card__image">
+      <img src="/images/image-equilibrium.jpg" alt="Equilibrium #3429">
     </div>
-
-    <div class="text-data">
-      <div>
-      <span class="name">Victor Crest</span>
-      <span class="age">26</span>
+    <div class="card__content">
+      <div class="card__header">
+        <h1>Equilibrium #3429</h1>
+        <p>Our Equilibrium collection promotes <br> balance and calm.</p>
+      </div>
+      <div class="card__footer">
+        <p>0.041 ETH</p>
+        <p>3 days left</p>
+      </div>
       <br>
-      <span class="loacation">London</span>
-      <hr>
-
-      <div class="followers-likes-photos">
-      <div class="followers">
-        <span class="followers-number">80K</span>
-        <span style="font-size: 12px;">Followers</span>
+      <div class="card__author">
+        <div class="card__author__image">
+        <img src="/images/image-avatar.png" height="20px" width="20px" alt="Author Avatar">
+        </div>
+        <div>
+          <p>Creation of</p>
+          <p>Jules Wyvern</p>
+        </div>
       </div>
-
-      <div class="likes">
-        <span class="likes-number">803K</span>
-        <span style="font-size: 12px;">Likes</span>
-      </div>
-
-      <div class="photos">
-        <span class="photos-number">80K</span>
-        <span style="font-size: 12px;">Photos</span>
-      </div>
-      </div>
-
     </div>
   </div>
+  </section>
+</main>
 </body>
 </html>
